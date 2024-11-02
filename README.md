@@ -3,9 +3,9 @@ Arduino code for an Arduino DUE that controls an Opel/Vauxhall Corsa OPC/VXR Ins
 
 This Arduino code, tested in Arduino IDE 2.0.3, uses libraries:
 SPI library and variant library are Arduino IDE included libraries.
-MCP23S17 library is associated to https://github.com/wollewald/MCP23017_WE
-DueTimer library is associated to https://github.com/ivanseidel/DueTimer
-due_can library is associated to https://github.com/collin80/due_can
+MCP23S17 library is associated to https://github.com/wollewald/MCP23017_WE .
+DueTimer library is associated to https://github.com/ivanseidel/DueTimer .
+due_can library is associated to https://github.com/collin80/due_can .
 LedController library is associated to https://github.com/noah1510/LedController with the adition of the following code in the file LedController_template.hpp :
 
 void setDecode(unsigned int segment, byte data) noexcept{
