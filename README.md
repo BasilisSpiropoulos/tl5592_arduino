@@ -1,4 +1,4 @@
-# tl5592_arduino
+# IPC_Controller_Arduino
 Arduino code for an Arduino DUE that controls an Opel/Vauxhall Corsa OPC/VXR Instrument Panel Cluster via a CAN-Bus interface. The entire system is managed by a separate PCB, which connects to the Arduino DUE and incorporates illuminated push-button switches and rotary encoders.  
 
 This Arduino code, tested in Arduino IDE 2.0.3, uses libraries:  
